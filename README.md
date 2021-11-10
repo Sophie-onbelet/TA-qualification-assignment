@@ -1,12 +1,8 @@
-**Test plan DEMOQA**
-This test plan includes the most important scenarios to automate and why I chose them. I also advice for testing tool and the CI platform.  
 
+**TEST SCENARIOS DEMOQA (UI)**
 
-**TEST SCENARIOS DEMOQA**
-
-**Scenario 1. Check the Category**
-Category Forms (https://demoqa.com/forms)
-Demoqa is a website designed to practice test automatisation. The categories (Elements, Forms, Alerts, Frame & Windows, Widgets, Interactions) are the core functionality of this demo website. The Forms category is one the of most time consuming to test, since it include multiple fields with several input options. Therefore I chose to automate this scenario.  
+**Scenario 1. Check the Category Forms**
+(https://demoqa.com/forms) Demoqa is a website designed to practice test automatisation. The categories (Elements, Forms, Alerts, Frame & Windows, Widgets, Interactions) are the core functionality of this demo website. The Forms category is one the of most time consuming to test, since it include multiple fields with several input options. Therefore I chose to automate this scenario.  
 
 Test cases
 TC1. Fill in the fields according to the requirements
@@ -17,7 +13,7 @@ TC5. Leave mandatory fields blank
 TC6. Fill in fields with invalid values
 
 **Scenario 2. Check the internal and external linking**   
-Links that work correctly are necessary to access the core functionality of the demo website: the categories. Users use links to navigate on the website. Automated tests can make you aware of broken links or links that go to the wrong page. Executing this test manually would be time consuming. 
+Links that work correctly are necessary to access the core functionality of the demo website, the categories. Users use links to navigate on the website. Automated tests can make you aware of broken links or links that go to the wrong page. Executing this test manually would be time consuming. 
 
 Test cases
 TC1. Check the Logo on the homepage
@@ -26,7 +22,7 @@ TC3. Check the internal links of the category cards
 TC4. Check the buttons below the categories
 
 **Scenario 3. Check Book Store Application**
-This scenario includes multiple steps, from creating an account, to login, adding books to your Book Store and deleting your account. Automating these steps will test coverage. 
+This scenario includes multiple steps, from creating an account, to login, adding books to your Book Store and deleting your account. Automating these steps will help executing these tests faster and increase your test coverage.
 
 Test cases
 TC1. Fill in the fields according to the requirements
@@ -75,19 +71,21 @@ Validate correct state
 Validate header
 Validate performance/ response time (stress and load tests)
 
+Automating this will faster and more accurate. Also you will be able to execute stress and load tests for the different scenarios to measure the performance. 
+
 **Scenario 2. Check Invalid input**
 Execute the API requests but this time with incorrect data. 
  
 
 **Scenario 3. Check security of the API**
-Make sure the end user cannot access things they should not be able to. This is business critical and you want this to be checked during the entire development process.
+Make sure the end user cannot access things they should not be able to. This is business critical and you want this to be checked during the entire development process. Automating these checks can also simulate more security attacks for example. 
 Test cases
 TC1. SQL injections
 TC2. Authentication
 TC3. Autorization
 
 **NEXT STEPS**
-
-
+The next steps after automating these scenarios, is creating a plan to maintain these test scenarios. They need to be reviewed and with any (code) changes the automated test should be updated as well. 
+Also the test results need the be evaluated every time the tests are excuted and checked if a follow up action is necessary. 
 
 
