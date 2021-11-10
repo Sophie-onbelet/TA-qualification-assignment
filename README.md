@@ -70,11 +70,10 @@ TC5. Clicking on the external links<br />
 <br />
 <h3>1. Most important scenario's to automate <b>PetStore</b> </h3></br>
 <b>Scenarios</b><br />
-Check if you can add, update an existing pet and delete a pet to the store<br />
-Check if you can find a pet by ID and/or status<br />
-Check if order can be placed, can be found by ID and can be deleted<br />
-Check if you can create a user, update an user and delete an user<br />
-Check if user can log in and log out<br />
+1. Check if you can add, update an existing pet and delete a pet to the store<br />
+2. Check if order can be placed, can be found by ID and can be deleted<br />
+3. Check if you can create a user, update an user and delete an user<br />
+4. Check if user can log in and log out<br />
 <br />
 I want to validate the following:<br />
 Validate status code<br />
