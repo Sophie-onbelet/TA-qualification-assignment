@@ -1,30 +1,30 @@
 
 **TEST SCENARIOS DEMOQA (UI)**
 
-**Scenario 1. Check the Category Forms**
+**Scenario 1. Check the Category Forms**<br />
 (https://demoqa.com/forms) Demoqa is a website designed to practice test automatisation. The categories (Elements, Forms, Alerts, Frame & Windows, Widgets, Interactions) are the core functionality of this demo website. The Forms category is one the of most time consuming to test, since it include multiple fields with several input options. Therefore I chose to automate this scenario.  
 
 Test cases
-TC1. Fill in the fields according to the requirements
-TC2. Fill in the fields with the minimum requirements
-TC3. Fill in the fields with the maximum requirements 
-TC4. Fill in the fields with more/less than minimum/maximum requirements
-TC5. Leave mandatory fields blank
-TC6. Fill in fields with invalid values
+TC1. Fill in the fields according to the requirements<br />
+TC2. Fill in the fields with the minimum requirement<br />
+TC3. Fill in the fields with the maximum requirements <br />
+TC4. Fill in the fields with more/less than minimum/maximum requirements<br />
+TC5. Leave mandatory fields blank<br />
+TC6. Fill in fields with invalid values<br />
 
 **Scenario 2. Check the internal and external linking**   
 Links that work correctly are necessary to access the core functionality of the demo website, the categories. Users use links to navigate on the website. Automated tests can make you aware of broken links or links that go to the wrong page. Executing this test manually would be time consuming. 
 
-Test cases
-TC1. Check the Logo on the homepage
-TC2. Check the external links in the top menu
-TC3. Check the internal links of the category cards
-TC4. Check the buttons below the categories
+Test cases<br />
+TC1. Check the Logo on the homepage<br />
+TC2. Check the external links in the top menu<br />
+TC3. Check the internal links of the category cards<br />
+TC4. Check the buttons below the categories<br />
 
-**Scenario 3. Check Book Store Application**
+**Scenario 3. Check Book Store Application**<br />
 This scenario includes multiple steps, from creating an account, to login, adding books to your Book Store and deleting your account. Automating these steps will help executing these tests faster and increase your test coverage.
 
-Test cases
+Test cases<br />
 TC1. Fill in the fields according to the requirements
 TC2. Fill in the fields with the minimum requirements
 TC3. Fill in the fields with the maximum requirements 
