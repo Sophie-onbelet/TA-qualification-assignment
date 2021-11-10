@@ -42,7 +42,7 @@ TC14. Logout<br />
 TC15. Remove account<br />
 
 **Scenario 4. Check performance of the website**<br />
-To execute proper load and stress test, you need to automate those tests. 
+To execute proper load and stress test, you need to automate those tests. A good performance of the website is important for the user experience on the website. Therefore this is important to automate. 
 
 Test cases <br />
 TC1. Open the homepage<br />
