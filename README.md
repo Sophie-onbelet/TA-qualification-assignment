@@ -80,6 +80,7 @@ Execute the API requests but this time with incorrect data.
 
 **Scenario 3. Check security of the API**<br />
 Make sure the end user cannot access things they should not be able to. This is business critical and you want this to be checked during the entire development process. Automating these checks can also simulate more security attacks for example. <br />
+
 Test cases<br />
 TC1. SQL injections<br />
 TC2. Authentication<br />
