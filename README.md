@@ -13,7 +13,7 @@ TC5. Leave mandatory fields blank<br />
 TC6. Fill in fields with invalid values<br />
 
 **Scenario 2. Check the internal and external linking**   <br />
-Links that work correctly are necessary to access the core functionality of the demo website, the categories. Users use links to navigate on the website. Automated tests can make you aware of broken links or links that go to the wrong page. Executing this test manually would be time consuming. 
+Links that work correctly are necessary to access the core functionality of the demo website, the categories. Users use links to navigate on the website. Automated tests can make you aware of broken links or links that go to the wrong page. Executing this test manually would be time consuming. Therefore this is another scenario that is important to automate.
 
 Test cases<br />
 TC1. Check the Logo on the homepage<br />
