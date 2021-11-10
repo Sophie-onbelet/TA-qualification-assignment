@@ -57,12 +57,37 @@ TC5. Clicking on the external links
 
 **TEST SCENARIOS PETSTORE**
 
-Scenario 1. Execute single API requests 
-These are the basic steps of testing an API. If the test fails already, executing further steps is useless. Executing each step is time consuming and therefore a good scenario to automate. This is also a test which you want to run over and over again, after any chance, to check if nothing has broken down. Automating single API request is also easier to maintain. 
+**Scenario 1. End-to-end processes**
+Check if you can add, update an existing pet and delete a pet to the store
+Check if you can find a pet by ID and/or status
+Check if order can be placed, can be found by ID and can be deleted
+Check if you can retrieve inventory by status
+Check if you can create a user, update an user and delete an user
+Check if user can log in and log out
+Check if you can find user by user name
+Check if user cannot access things they should not be able to
 
-	- Validate status code
-	- Validate response
-	- Validate correct state 
-	- Validate headers (security and performance) 
-	- Validate performance
+These are the most critical end-to-end processes within this API. Focus on these are important to test the connectivity of the API and its response.
+I want to validate the following:
+Validate status code
+Validate response
+Validate correct state
+Validate header
+Validate performance/ response time (stress and load tests)
+
+**Scenario 2. Check Invalid input**
+Execute the API requests but this time with incorrect data. 
+ 
+
+**Scenario 3. Check security of the API**
+Make sure the end user cannot access things they should not be able to. This is business critical and you want this to be checked during the entire development process.
+Test cases
+TC1. SQL injections
+TC2. Authentication
+TC3. Autorization
+
+**NEXT STEPS**
+
+
+
 
