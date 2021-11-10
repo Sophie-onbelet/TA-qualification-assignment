@@ -35,7 +35,7 @@ TC2. Check the external links in the top menu<br />
 TC3. Check the internal links of the category cards<br />
 TC4. Check the buttons below the categories<br />
 <br />
-**Scenario 3. Check Book Store Application**<br />
+<b>Scenario 3. Check Book Store Application</b><br />
 This scenario includes multiple steps, from creating an account, to login, adding books to your Book Store and deleting your account. Automating these steps will help executing these tests faster and increase your test coverage.
 <br />
 <br />
@@ -57,7 +57,7 @@ TC14. Logout<br />
 TC15. Remove account<br />
 <br />
 
-**Scenario 4. Check performance of the website**<br />
+<b>Scenario 4. Check performance of the website</b><br />
 To execute proper load and stress test, you need to automate those tests. A good performance of the website is important for the user experience on the website. Therefore this is important to automate. 
 <br />
 <br />
@@ -73,7 +73,6 @@ TC5. Clicking on the external links<br />
 1. Check if you can add, update an existing pet and delete a pet to the store<br />
 2. Check if order can be placed, can be found by ID and can be deleted<br />
 3. Check if you can create a user, update an user and delete an user<br />
-4. Check if user can log in and log out<br />
 <br />
 I want to validate the following:<br />
 Validate status code<br />
@@ -83,7 +82,7 @@ Validate header<br />
 Validate performance/ response time (stress and load tests)<br />
 <br />
 These are the most critical end-to-end processes within this API. Focus on these are important to test the connectivity of the API and its response.
-Automating this will faster and more accurate. Also you will be able to execute stress and load tests for the different scenarios to measure the performance. <br />
+Automating this will faster and more accurate. You want to test the scenarios with valid input, but also check which response codes you get went you enter invalid input. Also you will be able to execute stress and load tests for the different scenarios to measure the performance. <br />
 <h3>2. x </h3></br>
 <h3>3. x </h3></br>
 <h3>4. x </h3></br>
@@ -94,7 +93,7 @@ b. x <br />
 c. x <br />
 d. <i>What did you use to select the scenarios, what was your approach?</i><br />
 DEMOQA: first I analysed and explored the website. What is the purpose? This website is used as a demo website for automated tests. Therefore it is important that the categories should work, this is the main function. Since UI testing is required, I also wanted to focus on the usability.<br />
-PetStore: first I analysed and explored the API. What are the main activities. Based on that I selected the most important scenarios. Scenarios are based core activities on the website<br />
+PetStore: first I analysed and explored the API. What are the main activities. It is a Pet shop. You want to be able to display your pets, sell them and users to be able to create an account. Based on that I selected the most important scenarios. Scenarios are based core activities on the website<br />
 <br />
 e. <i>Why are the scenarios the most important</i><br />
 See description below each scenario.<br />
