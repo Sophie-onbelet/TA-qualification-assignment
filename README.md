@@ -93,7 +93,7 @@ b. x <br />
 c. x <br />
 d. <i>What did you use to select the scenarios, what was your approach?</i><br />
 DEMOQA: first I analysed and explored the website. What is the purpose? This website is used as a demo website for automated tests. Therefore it is important that the categories should work, this is the main function. Since UI testing is required, I also wanted to focus on the usability.<br />
-PetStore: first I analysed and explored the API. What are the main activities. It is a Pet shop. You want to be able to display your pets, sell them and users to be able to create an account. Based on that I selected the most important scenarios. Scenarios are based core activities on the website<br />
+PetStore: first I analysed and explored the API. What are the main activities. It is a Pet shop. You want to be able to display your pets, sell them and users to be able to create an account. Based on that I selected the most important scenarios. Scenarios are based core activities on the website.<br />
 <br />
 e. <i>Why are the scenarios the most important</i><br />
 See description below each scenario.<br />
