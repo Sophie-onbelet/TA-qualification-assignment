@@ -51,10 +51,11 @@ TC8. Create account<br />
 TC9. Attemped login with wrong username<br />
 TC10. Attemped login with wrong password<br />
 TC11. Login with credentials<br />
-TC12. Add book(s) to your book store (maximum amount)<br />
-TC13. Remove books<br />
-TC14. Logout<br />
-TC15. Remove account<br />
+TC12. Inspect session. Check if you stay logged in if you go to previous page.<br/>
+TC13. Add book(s) to your book store (maximum amount)<br />
+TC14. Remove books<br />
+TC15. Logout. Check if you're still logged out if you go to previous page<br />
+TC16. Remove account<br />
 <br />
 
 <b>Scenario 4. Check performance of the website</b><br />
